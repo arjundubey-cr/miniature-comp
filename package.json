@@ -1,0 +1,31 @@
+{
+  "name": "@arjundubey-cr/miniature-comp",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/arjundubey-cr"
+  },
+  "version": "1.0.1",
+  "description": "ui lib",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "author": "Arjun Dubey",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/react": "^18.2.6",
+    "react": "^18.2.0",
+    "rollup": "^3.21.6",
+    "rollup-plugin-dts": "^5.3.0",
+    "typescript": "^5.0.4",
+    "tslib": "^2.5.0"
+  }
+}
